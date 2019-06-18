@@ -11,6 +11,12 @@ exports.config = {
   capabilities: {
     'browserName': 'chrome'
   },
+  // capabilities: {
+  //   chromeOptions: {
+  //     args: [ "--headless" ]
+  //   },
+  //   'browserName': 'chrome'
+  // },
   directConnect: true,
   baseUrl: 'http://localhost:4200/',
   framework: 'jasmine',
